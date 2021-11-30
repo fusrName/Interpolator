@@ -1,8 +1,7 @@
 # Interpolator
 predicts the original polynomial by applying Lagrange interpolation in a multidimensional way.
 It takes a function to be predicted and lists of coordinates, where i-th list contains coordinates along i-th axis.
-The set of sample points used for prediction is the *product* set of them.
-Not packaged and everything just put inside main.py because of myyyyy.
+The set of sample points used for prediction is the *product* of the lists.
 
 ## Methods
 ```python
